@@ -19,15 +19,15 @@ const SecondSection = () => {
         src={pic3}
         alt="pic3"
       ></img>
-      <div className="pt-[100px] px-40">
+      <div className="pt-[100px] ml-[300px]">
         <p className="text-[#EC2232]">Customer First Approach</p>
-        <p className="w-[940px] text-[70px]">
+        <p className="w-[940px] text-[70px] leading-none">
           First choice of procurement partners across global
         </p>
       </div>
     </div>
     <div className="mt-[-300px] my-10">
-         <div className="grid grid-cols-1 lg:grid-cols-3 ml-[300px] mt-[80px]">
+         <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-3 ml-[300px] ">
         <div className="relative mr-8">
           <img className="w-[350px] h-[400px]" src={first} alt="first" />
           <div

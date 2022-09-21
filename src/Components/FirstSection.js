@@ -20,7 +20,7 @@ const FirstSection = () => {
       </div>
       <div className="flex justify-evenly">
         <div>
-          <p className="text-[110px] flex items-center justify-center">
+          <p className="text-[110px] flex items-center justify-center gap-3">
             20
             <svg
               width="67"
@@ -38,7 +38,7 @@ const FirstSection = () => {
           
         </div>
         <div>
-          <p className="text-[110px] flex items-center justify-center">
+          <p className="text-[110px] flex items-center justify-center gap-3">
             23
             <svg
               width="67"
@@ -56,7 +56,7 @@ const FirstSection = () => {
           
         </div>
         <div>
-          <p className="text-[110px] flex items-center justify-center">
+          <p className="text-[110px] flex items-center justify-center gap-3">
             50
             <svg
               width="67"

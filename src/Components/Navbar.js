@@ -2,17 +2,17 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="relative flex justify-between items-center mt-3 px-6">
+    <div className="relative flex justify-between items-center my-3 px-6">
       <div>
         <div className="w-[29.33px] h-[3px] bg-[#222222] ml-[24px]"></div>
         <div className="mt-2 w-[22.33px] h-[3px] bg-[#222222] ml-[31px]"></div>
       </div>
-      <div className="text-black">
+      <div className="text-black text-[19px]">
         <p className="flex items-center uppercase">
           RP All{" "}
           <svg
-            width="10"
-            height="10"
+            width="19"
+            height="19"
             viewBox="0 0 22 21"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Navbar = () => {
           ys
         </p>
       </div>
-      <div className="text-black">
+      <div className="text-black text-[18px]">
         <p className="flex items-center gap-2 underline">
           Get In Touch{" "}
           <svg
