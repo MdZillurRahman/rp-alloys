@@ -12,7 +12,7 @@ const ContactUs = () => {
     <div className="relative">
       {" "}
       <img src={bgMap} alt="bgMap" />
-      <div className="flex justify-center items-center my-20 absolute top-[5%] left-[20%] z-1">
+      <div className="flex justify-center items-center my-20 absolute top-[7%] left-[18%] z-1">
         <div>
           <h2 className="text-6xl font-bold">Get in touch</h2>
           <p className="w-[70%] flex items-start mt-5 gap-2 mb-3 text-[px]">
@@ -20,11 +20,11 @@ const ContactUs = () => {
             side GT.Rd sector 13, Bulandshahr Road Industrial area, Gajibad
             uttor prodesh
           </p>
-          <div className="w-[65%] flex justify-start">
+          <div className="w-[80%] flex justify-start">
             <img src={map} alt="" />
           </div>
         </div>
-        <div style={{boxShadow: "0px -2px 50px rgba(0, 0, 0, 0.3)"}} className="bg-white rounded w-[50%] px-10 py-12">
+        <div style={{boxShadow: "0px -2px 50px rgba(0, 0, 0, 0.3)"}} className="bg-white rounded-xl w-[50%] px-10 py-12">
           <div className="my-6">
             <div className="flex justify-start gap-3 items-center">
               <div>

@@ -20,7 +20,7 @@ const SecondSection = () => {
         alt="pic3"
       ></img>
       <div className="pt-[100px] px-40">
-        <p>Customer First Approach</p>
+        <p className="text-[#EC2232]">Customer First Approach</p>
         <p className="w-[940px] text-[70px]">
           First choice of procurement partners across global
         </p>
