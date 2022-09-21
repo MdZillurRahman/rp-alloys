@@ -5,7 +5,7 @@ import num from "../Images/num.png";
 
 const Bannar = () => {
   return (
-    <div className="relative lg:mx-[75px]">
+    <div className="relative mx-[20px] lg:mx-[75px] 2xl:mx-[75px]">
       <img src={bannar} alt="Machine" />
       <img className="absolute top-0" src={bg} alt="Machine" />
       <div

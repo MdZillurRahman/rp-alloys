@@ -28,14 +28,14 @@ const SecondSection = () => {
     </div>
     <div className="mt-[-300px] my-10">
          <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-3 ml-[300px] ">
-        <div className="relative mr-8">
-          <img className="w-[350px] h-[400px]" src={first} alt="first" />
+        <div className="relative mr-8 group">
+          <img className="w-[350px] h-[500px]" src={first} alt="first" />
           <div
             style={{
               background:
                 "linear-gradient(180deg, rgba(0, 0, 0, 0) 10.05%, #000000 110.99%)",
             }}
-            className="absolute bottom-0 px-4 text-white h-[120px]"
+            className="absolute bottom-0 px-4 py-[-2] text-white h-[120px] hidden group-hover:block "
           >
             <div className="bg-[#EC2232] w-[100px] h-[4px] my-4"></div>
             <p className="text-2xl font-bold">Cement Industry</p>
@@ -45,14 +45,14 @@ const SecondSection = () => {
             </p>
           </div>
         </div>
-        <div className="relative mr-8">
-          <img className="w-[350px] h-[400px]" src={second} alt="first" />
+        <div className="relative mr-8 group">
+          <img className="w-[350px] h-[500px]" src={second} alt="first" />
           <div
             style={{
               background:
                 "linear-gradient(180deg, rgba(0, 0, 0, 0) 10.05%, #000000 110.99%)",
             }}
-            className="absolute bottom-0 px-4 text-white h-[120px]"
+            className="absolute bottom-0 px-4 py-[-2] text-white h-[120px] hidden group-hover:block "
           >
             <div className="bg-[#EC2232] w-[100px] h-[4px] my-4"></div>
             <p className="text-2xl font-bold">Mining Processing</p>
@@ -62,14 +62,14 @@ const SecondSection = () => {
             </p>
           </div>
         </div>
-        <div className="relative mr-8">
-          <img className="w-[350px] h-[400px]" src={third} alt="first" />
+        <div className="relative mr-8 group">
+          <img className="w-[350px] h-[500px]" src={third} alt="first" />
           <div
             style={{
               background:
                 "linear-gradient(180deg, rgba(0, 0, 0, 0) 10.05%, #000000 110.99%)",
             }}
-            className="absolute bottom-0 px-4 text-white h-[120px]"
+            className="absolute bottom-0 px-4 py-[-2] text-white h-[120px] hidden group-hover:block "
           >
             <div className="bg-[#EC2232] w-[100px] h-[4px] my-4"></div>
             <p className="text-2xl font-bold">Rubber Industry</p>
