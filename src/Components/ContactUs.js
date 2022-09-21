@@ -10,21 +10,20 @@ import bgMap from "../Images/bg-map.png";
 const ContactUs = () => {
   return (
     <div className="relative">
-      {" "}
-      <img src={bgMap} alt="bgMap" />
-      <div className="flex justify-center items-center my-20 absolute top-[7%] left-[18%] z-1">
-        <div>
-          <h2 className="text-6xl font-bold">Get in touch</h2>
-          <p className="w-[70%] flex items-start mt-5 gap-2 mb-3 text-[px]">
-            <img className="rounded" src={location} alt="location" />7 south
+      <img className="w-[100%]" src={bgMap} alt="bgMap" />
+      <div className="block lg:flex 2xl:flex justify-center items-center lg:my-20 2xl:my-20 relative lg:absolute left-[5%] lg:top-[4%] lg:left-[20%] 2xl:top-[4%] 2xl:left-[20%] z-1">
+        <div className="my-4 lg:my-0 2xl:my-0">
+          <h2 className="text-[20px] lg:text-[70px] 2xl:text-[70px] font-bold">Get in touch</h2>
+          <p className="w-[90%] lg:w-[70%] 2xl:w-[70%] flex items-start mt-5 gap-2 mb-3">
+            <img src={location} alt="location" />7 south
             side GT.Rd sector 13, Bulandshahr Road Industrial area, Gajibad
             uttor prodesh
           </p>
           <div className="w-[80%] flex justify-start">
-            <img src={map} alt="" />
+            <img className="rounded" src={map} alt="" />
           </div>
         </div>
-        <div style={{boxShadow: "0px -2px 50px rgba(0, 0, 0, 0.3)"}} className="bg-white rounded-xl w-[50%] px-10 py-12">
+        <div style={{boxShadow: "0px -2px 50px rgba(0, 0, 0, 0.3)"}} className="bg-white rounded-xl w-[90%] lg:w-[50%] 2xl:w-[50%] px-10 py-12">
           <div className="my-6">
             <div className="flex justify-start gap-3 items-center">
               <div>

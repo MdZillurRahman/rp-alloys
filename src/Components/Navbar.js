@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="relative flex justify-between items-center my-3 px-6">
+    <div className="relative flex justify-between items-center my-3 2xl:px-6 lg:px-6 px-2">
       <div>
         <div className="w-[29.33px] h-[3px] bg-[#222222] ml-[24px]"></div>
         <div className="mt-2 w-[22.33px] h-[3px] bg-[#222222] ml-[31px]"></div>

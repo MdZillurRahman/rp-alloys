@@ -2,15 +2,14 @@ import React from "react";
 
 const FirstSection = () => {
   return (
-    <div className="mx-[170px] relative my-[160px]">
+    <div className="mx-[20px] my-[20px] lg:mx-[170px] 2xl:mx-[170px] relative lg:my-[160px] 2xl:my-[160px]">
       <p className="text-[#EC2232]">Smart Working Team</p>
-      <div className="flex ">
-        <div className="text-[70px]">
-          <p>Some of the best of</p>
-          <p>industry experts</p>
+      <div className="block lg:flex 2xl:flex">
+        <div className="lg:text-[70px] 2xl:text-[70px] text-[20px] ">
+          <p className="w-[200px] lg:w-[600px] 2xl:[600px] leading-none">Some of the best of industry experts</p>
         </div>
         <div>
-          <p className="w-[350px] ml-[41px] mt-[192px]">
+          <p className="w-[80%] ml-[30px] mt-[22px] lg:w-[350px] lg:ml-[41px] lg:mt-[152px] 2xl:w-[350px] 2xl:ml-[41px] 2xl:mt-[152px]">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudanti um totam rem aperiam, eaque ipsa
             quae ab illo inve ntore veritatis et quasi architecto beatae vitae
@@ -18,7 +17,7 @@ const FirstSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-evenly">
+      <div className="block lg:flex 2xl:flex justify-evenly">
         <div>
           <p className="text-[110px] flex items-center justify-center gap-3">
             20
@@ -34,7 +33,7 @@ const FirstSection = () => {
                 fill="#EC2232"
               />
             </svg></p>
-            <p className="text-[30px] mt-[-30px]"><span className="font-bold">Location</span> worldwide</p>
+            <p className="text-[30px] mt-[-30px] text-center"><span className="font-bold">Location</span> worldwide</p>
           
         </div>
         <div>
@@ -52,7 +51,7 @@ const FirstSection = () => {
                 fill="#EC2232"
               />
             </svg></p>
-            <p className="text-[30px] mt-[-30px]">Year of <span className="font-bold">Experience</span> </p>
+            <p className="text-[30px] mt-[-30px] text-center">Year of <span className="font-bold">Experience</span> </p>
           
         </div>
         <div>
@@ -70,7 +69,7 @@ const FirstSection = () => {
                 fill="#EC2232"
               />
             </svg></p>
-            <p className="text-[30px] mt-[-30px]">Global Happy <span className="font-bold">Clients</span> </p>
+            <p className="text-[30px] mt-[-30px] text-center">Global Happy <span className="font-bold">Clients</span> </p>
           
         </div>
       </div>
