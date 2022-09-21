@@ -17,7 +17,7 @@ const FirstSection = () => {
           </p>
         </div>
       </div>
-      <div className="block lg:flex 2xl:flex justify-evenly">
+      <div className="block lg:flex 2xl:flex lg:justify-evenly 2xl:justify-evenly">
         <div>
           <p className="text-[110px] flex items-center justify-center gap-3">
             20

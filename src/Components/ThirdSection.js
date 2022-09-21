@@ -16,12 +16,12 @@ const ThirdSection = () => {
       </div>
       <div className="absolute bottom-[1%] lg:bottom-[5%] 2xl:bottom-[5%] grid grid-cols-3 items-center mx-[20px] gap-8 lg:mx-[300px] lg:gap-16 2xl:mx-[300px] 2xl:gap-16">
         <div>
-            <img className="w-[30%] lg:w-[40%]" src={group} alt="group"/>
+            <img className="w-[30%] lg:w-[50%]" src={group} alt="group"/>
             <p className="text-[10px] lg:text-[32px] 2xl:text-[32px] mt-3">10000 ft<sup>2</sup></p>
             <p className="text-[7px] lg:text-[23px] 2xl:text-[23px]">Factory Area</p>
         </div>
         <div>
-            <img className="w-[30%] lg:w-[40%]" src={group345} alt="group"/>
+            <img className="w-[30%] lg:w-[50%]" src={group345} alt="group"/>
             <p className="text-[10px] lg:text-[32px] 2xl:text-[32px] flex items-center mt-3 gap-1 lg:gap-2 2xl:gap-2">
             30
             <svg
@@ -40,7 +40,7 @@ const ThirdSection = () => {
             <p className="text-[7px] lg:text-[23px] 2xl:text-[23px]">Factory We Have</p>
         </div>
         <div>
-            <img className="w-[30%] lg:w-[40%]" src={group1} alt="group"/>
+            <img className="w-[30%] lg:w-[50%]" src={group1} alt="group"/>
             <p className="text-[10px] lg:text-[32px] 2xl:text-[32px] flex items-center mt-3 gap-1 lg:gap-2 2xl:gap-2">
             2,000 
             <svg
@@ -59,8 +59,8 @@ const ThirdSection = () => {
             <p className="text-[7px] lg:text-[23px] 2xl:text-[23px]">Workers We Have</p>
         </div>
       </div>
-      <div className="absolute right-[-30%] top-[25%] lg:right-[10%] lg:top-[45%] 2xl:right-[10%] 2xl:top-[45%]">
-        <img className="w-[30%] lg:w-[100%]" src={play} alt="Play"/>
+      <div className="absolute left-[70%] top-[25%] lg:right-[10%] lg:top-[45%] 2xl:right-[10%] 2xl:top-[45%]">
+        <img className="w-[40%] lg:w-[100%]" src={play} alt="Play"/>
       </div>
     </div>
   );
